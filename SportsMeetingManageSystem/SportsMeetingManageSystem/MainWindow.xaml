@@ -19,6 +19,10 @@
             <Setter Property="ItemsControl.FontSize" Value="25"></Setter>
             <Setter Property="ItemsControl.FontWeight" Value="Bold"></Setter>
         </Style>
+        <Style x:Key="bottomText">
+            <Setter Property="ItemsControl.FontSize" Value="18"></Setter>
+            <Setter Property="ItemsControl.VerticalAlignment" Value="Bottom"></Setter>
+        </Style>
     </Window.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
@@ -62,7 +66,7 @@
             </StackPanel>
         </StackPanel>
         <Button Grid.Column="1" Grid.Row="2" Width="280" Height="45" VerticalAlignment="Bottom" Margin="0,0,0,40"  FontSize="20">登录</Button>
-        <Label Grid.Row="2" Grid.Column="0" FontSize="18" VerticalAlignment="Bottom" Margin="15,0,0,15">注册账号</Label>
-        <Label Grid.Row="2" Grid.Column="2" FontSize="18" VerticalAlignment="Bottom"  Margin="25,0,0,15">开发人员</Label>
+        <Label Grid.Row="2" Grid.Column="0" Style="{StaticResource bottomText}" Margin="15,0,0,15">注册账号</Label>
+        <Label Grid.Row="2" Grid.Column="2" Style="{StaticResource bottomText}"  Margin="25,0,0,15">开发人员</Label>
     </Grid>
 </Window>
