@@ -1,0 +1,15 @@
+D:\Desktop\新项目\SportsMeetingManageSystem\SportsMeetingManageSystem\bin\Debug\SportsMeetingManageSystem.exe.config
+D:\Desktop\新项目\SportsMeetingManageSystem\SportsMeetingManageSystem\bin\Debug\SportsMeetingManageSystem.exe
+D:\Desktop\新项目\SportsMeetingManageSystem\SportsMeetingManageSystem\bin\Debug\SportsMeetingManageSystem.pdb
+D:\Desktop\新项目\SportsMeetingManageSystem\SportsMeetingManageSystem\obj\Debug\SportsMeetingManageSystem.csprojAssemblyReference.cache
+D:\Desktop\新项目\SportsMeetingManageSystem\SportsMeetingManageSystem\obj\Debug\MainWindow.g.cs
+D:\Desktop\新项目\SportsMeetingManageSystem\SportsMeetingManageSystem\obj\Debug\App.g.cs
+D:\Desktop\新项目\SportsMeetingManageSystem\SportsMeetingManageSystem\obj\Debug\SportsMeetingManageSystem_MarkupCompile.cache
+D:\Desktop\新项目\SportsMeetingManageSystem\SportsMeetingManageSystem\obj\Debug\SportsMeetingManageSystem_MarkupCompile.lref
+D:\Desktop\新项目\SportsMeetingManageSystem\SportsMeetingManageSystem\obj\Debug\MainWindow.baml
+D:\Desktop\新项目\SportsMeetingManageSystem\SportsMeetingManageSystem\obj\Debug\SportsMeetingManageSystem.g.resources
+D:\Desktop\新项目\SportsMeetingManageSystem\SportsMeetingManageSystem\obj\Debug\SportsMeetingManageSystem.Properties.Resources.resources
+D:\Desktop\新项目\SportsMeetingManageSystem\SportsMeetingManageSystem\obj\Debug\SportsMeetingManageSystem.csproj.GenerateResource.cache
+D:\Desktop\新项目\SportsMeetingManageSystem\SportsMeetingManageSystem\obj\Debug\SportsMeetingManageSystem.csproj.CoreCompileInputs.cache
+D:\Desktop\新项目\SportsMeetingManageSystem\SportsMeetingManageSystem\obj\Debug\SportsMeetingManageSystem.exe
+D:\Desktop\新项目\SportsMeetingManageSystem\SportsMeetingManageSystem\obj\Debug\SportsMeetingManageSystem.pdb

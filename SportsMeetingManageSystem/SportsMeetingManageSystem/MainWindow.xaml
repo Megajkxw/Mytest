@@ -1,0 +1,68 @@
+﻿<Window x:Class="SportsMeetingManageSystem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SportsMeetingManageSystem"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="440" Width="660" WindowStyle="None" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Window.Resources>
+        <Style x:Key="btn">
+            <Setter Property="ItemsControl.Width" Value="65"></Setter>
+            <Setter Property="ItemsControl.Height" Value="50"></Setter>
+            <Setter Property="ItemsControl.Background" Value="Transparent"></Setter>
+            <Setter Property="ItemsControl.FontSize" Value="20"></Setter>
+            <Setter Property="ItemsControl.Foreground" Value="White"></Setter>
+            <Setter Property="ItemsControl.BorderThickness" Value="0"></Setter>
+        </Style>
+        <Style x:Key="titie">
+            <Setter Property="ItemsControl.FontSize" Value="25"></Setter>
+            <Setter Property="ItemsControl.FontWeight" Value="Bold"></Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="6*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2.1*"></RowDefinition>
+            <RowDefinition Height="2.1*"></RowDefinition>
+            <RowDefinition Height="5.8*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.RowSpan="2" Grid.ColumnSpan="3">
+            <Grid.Background>
+                <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+                    <GradientStop Color="#02CD46" Offset="0"></GradientStop>
+                    <GradientStop Color="#03B23F" Offset="0.5"></GradientStop>
+                    <GradientStop Color="#02CD46" Offset="1"></GradientStop>
+                </LinearGradientBrush>
+            </Grid.Background>
+        </Grid>
+        <Image HorizontalAlignment="Left" Margin="10" Width="60" Height="60" Source="Resources/images/校运动会.png"></Image>
+        <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Right" Margin="0,1,15,0">
+            <Button Style="{StaticResource btn}" Content="一"></Button>
+            <Button Style="{StaticResource btn}" Content="X"></Button>
+        </StackPanel>
+        <Label Grid.Row="1" Grid.Column="1" Foreground="White" FontSize="42" HorizontalAlignment="Center">校运动会管理系统</Label>
+        <StackPanel Grid.Row="2" Grid.Column="1">
+            <StackPanel Margin="0,20,0,0" Orientation="Horizontal" HorizontalAlignment="Center">
+                <Label FontSize="25" FontWeight="Bold">身份</Label>
+                <ComboBox SelectedIndex="0"  Width="240" Height="30"   FontSize="19" Margin="20,0,0,0">
+                    <ComboBoxItem>选择身份</ComboBoxItem>
+                    <ComboBoxItem>管理员</ComboBoxItem>
+                    <ComboBoxItem>学生</ComboBoxItem>
+                    <ComboBoxItem>老师</ComboBoxItem>
+                </ComboBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,40,0,0">
+                <Label FontSize="25" FontWeight="Bold">密码</Label>
+                <PasswordBox Width="240" Height="30"   FontSize="19" Margin="20,0,0,0" MaxLength="8"></PasswordBox>
+            </StackPanel>
+        </StackPanel>
+        <Button Grid.Column="1" Grid.Row="2" Width="280" Height="45" VerticalAlignment="Bottom" Margin="0,0,0,40"  FontSize="20">登录</Button>
+        <Label Grid.Row="2" Grid.Column="0" FontSize="18" VerticalAlignment="Bottom" Margin="15,0,0,15">注册账号</Label>
+        <Label Grid.Row="2" Grid.Column="2" FontSize="18" VerticalAlignment="Bottom"  Margin="25,0,0,15">开发人员</Label>
+    </Grid>
+</Window>
