@@ -50,14 +50,14 @@
         </Grid>
         <Image HorizontalAlignment="Left" Margin="10" Width="60" Height="60" Source="Resources/images/校运动会.png"></Image>
         <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Right" Margin="0,1,15,0">
-            <Button Style="{StaticResource btn}" Content="一"></Button>
-            <Button Style="{StaticResource btn}" Content="X"></Button>
+            <Button Style="{StaticResource btn}" Content="一" Click="App_min_Click"></Button>
+            <Button Style="{StaticResource btn}" Content="X" Click="App_Close_Click"></Button>
         </StackPanel>
         <Label Grid.Row="1" Grid.Column="1" Foreground="White" FontSize="42" HorizontalAlignment="Center">校运动会管理系统</Label>
         <StackPanel Grid.Row="2" Grid.Column="1">
             <StackPanel Margin="0,20,0,0" Orientation="Horizontal" HorizontalAlignment="Center">
                 <Label FontSize="25" FontWeight="Bold">身份</Label>
-                <ComboBox SelectedIndex="0"  Width="240" Height="30"   FontSize="19" Margin="20,0,0,0">
+                <ComboBox Name="identity" SelectedIndex="0"  Width="240" Height="30"   FontSize="19" Margin="20,0,0,0">
                     <ComboBoxItem>选择身份</ComboBoxItem>
                     <ComboBoxItem>管理员</ComboBoxItem>
                     <ComboBoxItem>学生</ComboBoxItem>
@@ -66,10 +66,10 @@
             </StackPanel>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,40,0,0">
                 <Label FontSize="25" FontWeight="Bold">密码</Label>
-                <PasswordBox Width="240" Height="30"   FontSize="19" Margin="20,0,0,0" MaxLength="8"></PasswordBox>
+                <PasswordBox Name="psw" Width="240" Height="30"   FontSize="19" Margin="20,0,0,0" MaxLength="8"></PasswordBox>
             </StackPanel>
         </StackPanel>
-        <Button Grid.Column="1" Grid.Row="2" Width="280" Height="45" VerticalAlignment="Bottom" Margin="0,0,0,40"  FontSize="20">登录</Button>
+        <Button Grid.Column="1" Grid.Row="2" Width="280" Height="45" VerticalAlignment="Bottom" Margin="0,0,0,40"  FontSize="20" Click="Login_Click">登录</Button>
         <Button Grid.Row="2" Grid.Column="0" Style="{StaticResource bottomText}" Margin="15,0,0,15">注册账号</Button>
         <Button Grid.Row="2" Grid.Column="2" Style="{StaticResource bottomText}"  Margin="2,0,0,15">开发人员</Button>
     </Grid>
