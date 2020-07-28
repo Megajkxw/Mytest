@@ -24,6 +24,8 @@
             <Setter Property="ItemsControl.VerticalAlignment" Value="Bottom"></Setter>
             <Setter Property="ItemsControl.Background" Value="Transparent"></Setter>
             <Setter Property="ItemsControl.BorderThickness" Value="0"></Setter>
+            <Setter Property="ItemsControl.Width" Value="100"></Setter>
+            <Setter Property="ItemsControl.Height" Value="30"></Setter>
         </Style>
     </Window.Resources>
     <Grid>
@@ -69,6 +71,6 @@
         </StackPanel>
         <Button Grid.Column="1" Grid.Row="2" Width="280" Height="45" VerticalAlignment="Bottom" Margin="0,0,0,40"  FontSize="20">登录</Button>
         <Button Grid.Row="2" Grid.Column="0" Style="{StaticResource bottomText}" Margin="15,0,0,15">注册账号</Button>
-        <Button Grid.Row="2" Grid.Column="2" Style="{StaticResource bottomText}"  Margin="25,0,0,15">开发人员</Button>
+        <Button Grid.Row="2" Grid.Column="2" Style="{StaticResource bottomText}"  Margin="2,0,0,15">开发人员</Button>
     </Grid>
 </Window>
